@@ -52,6 +52,4 @@ declare module 'bn.js' {
     egcd(b: BN): { a: BN, b: BN, gcd: BN }
     invm(b: BN): BN
   }
-
-  export = BN
 }
